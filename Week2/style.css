@@ -30,13 +30,13 @@ h2
 .grid-item
 {
 margin-right: 20px;
-width: 280px;
+width: 300px;
 }
 .grid-item:nth-child(1) {
     width: 550px;
   } 
   .grid-item:nth-child(2) {
-    width: 280px;
+    width: 300px;
   } 
  li
   {
