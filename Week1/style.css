@@ -1,0 +1,155 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body
+{
+background: #fff;
+}
+.photo img
+{
+    float: right;
+    width: 400px;
+   height: 610px;  
+}
+.about
+{
+margin-left: 2%;
+line-height: 150%;
+font-size: 20px;
+}
+.profile-info
+{
+    width: 66%;
+    height: 100vh;
+    float: right;
+    padding: 0 30px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.profile-info::-webkit-scrollbar
+{width: 0px;}
+.profile-info h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.table-school
+{
+    display: inline-block;
+    width: 45%;
+    padding: 10px 10px;
+    margin: 2%;
+    margin-top: 5%;
+    text-align: center;
+    box-shadow: 0 0 10px 5px rgba(37, 73,214,0.18);
+    background: white;
+}
+.table-school td 
+{
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 8px;
+}
+.table-school h2
+{
+    margin: 5px;
+    margin-bottom: 10px;
+}
+.work img{
+    height: 5%;
+}
+.work
+{
+    display: inline-block;
+    width: 28%;
+    padding: 30px 10px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 10px 5px rgba(37, 73,214,0.18);
+    background: white;
+}
+.work small
+{
+    padding-top: 10px;
+    display: block;
+    font-size: 15px;
+}
+.learn
+{
+    display: inline-block;
+    width: 48%;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -3%;
+}
+.learn ul
+{
+    list-style-type:none; 
+}
+.learn ul li
+{
+    margin: 0.5%;
+       
+}
+.learn a
+{
+    text-decoration: none;  
+}
+.learn ul h2
+{
+    font-size: none;
+    margin-bottom: 15px;
+}
+.input-group input
+{
+width: 45%;
+border: 2;
+outline: none !important;
+padding: 5px;
+margin: 0.5%;
+display: inline-block;
+}
+.input-group h2
+{
+    margin: 0% 0 2% 0;
+}
+.text-area textarea{
+width: 91.8%;
+border: 2;
+outline: none !important;
+padding: 5px;
+margin: 0.5%;
+margin-top: 5px;
+display: inline-block;
+}
+.submit-btn 
+{
+width: 15%;
+border: dashed 2px gray;
+outline: none !important;
+padding: 5px;
+margin: 0.5%;
+background: #fff;
+cursor: pointer;
+color: rgb(8, 8, 8); 
+}
+.contact img{
+    width: 30px;
+    margin: -2px;
+}
+.contact span{
+    margin: 30px; 
+}
+.contact{
+margin: 2% 0.5% 5% 0.5%;
+width: 105%;
+}
+.copyright
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
